@@ -6,7 +6,8 @@
 
 ## 模板样例
 <img src="https://jarviszuo-tencent-img-1302316844.cos.ap-chengdu.myqcloud.com/img/markdownImg/c8ab6b5637ebad0e5e65bfd3e95b8a96.png" alt="image-20220313212945083" style="zoom: 25%;" />
-正文样例可以参照 [PDF样例文档](https://jarviszuo-tencent-img-1302316844.cos.ap-chengdu.myqcloud.com/img/markdownImg/adbfeef7b4c95e22fcd430081cda84c1.pdf)
+
+正文样例可以参照[example](https://jarviszuo-tencent-img-1302316844.cos.ap-chengdu.myqcloud.com/img/markdownImg/adbfeef7b4c95e22fcd430081cda84c1.pdf)
 
 ## 使用方法
 
