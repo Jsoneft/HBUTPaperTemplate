@@ -1,8 +1,8 @@
 %
 %	HustGraduPaper.sty
-%	本文件是华中科技大学本科生毕业论文模板
-%	@author skinaze
-% 	@date 2018/03/19
+%	本文件是湖北工业大学本科生毕业论文模板 改自HUST本科生毕业论文模板
+%	@author jarvis
+% 	@date 2022/03/13
 %	@version v2.1.7
 %
 %	本模板遵循MIT License
@@ -137,7 +137,7 @@
 \RequirePackage{fancyhdr}
 %设置页眉样式
 \newcommand{\headstyle}{
-	\fancyhead[C]{\huawenzhongsong \zihao{5} 华 \space 中 \space 科 \space 技 \space 大 \space 学 \space 毕 \space 业 \space 设 \space 计（论  \space 文）}
+	\fancyhead[C]{\huawenzhongsong \zihao{5} 湖 \space 北 \space 工 \space 业 \space 大 \space 学 \space 毕 \space 业 \space 设 \space 计（论  \space 文）}
 }
 %设置页脚样式
 \newcommand{\footstyle}{\fancyfoot[C]{\huawenzhongsong \zihao{5} \thepage}
@@ -432,8 +432,8 @@
 	\IfStrEqCase{#1}{
 		{logo color}{
 			\IfStrEqCase{#2}{
-				{green}{\def\HGP@titlecolor{HUSTGreen.eps}}
-				{black}{\def\HGP@titlecolor{HUSTBlack.eps}}
+				{green}{\def\HGP@titlecolor{HBUTBlack.eps}}
+				{black}{\def\HGP@titlecolor{HBUTBlack.eps}}
 			}[\ClassWarning{\HGP@name}{There's no such value for #1 (maketitle)}]
 		}
 		{line length}{\def\HGP@titlelength{#2}}
@@ -459,7 +459,7 @@
 }
 %重置命令maketitle
 \renewcommand{\maketitle}[1][12em]{
-	\def\HGP@titlecolor{HUSTGreen.eps}
+	\def\HGP@titlecolor{HBUTBlack.eps}
 	\def\HGP@titlelength{12em}
 	\def\HGP@titlelinefont{}
 	\maketitlearg{#1}
@@ -802,7 +802,7 @@
 		pdfinfo={
 			Title={\@title},
 			Author={\@author},
-			Subject={华中科技大学本科生毕业论文}
+			Subject={湖北工业大学本科生毕业论文}
 		}
 	}
 }
@@ -815,7 +815,7 @@
 	
 	{\heiti\zihao{1}\noindent 这部分用于支持加粗的复制，便于查重。请从这里开始删除！}
 	
-	{\huawenzhongsong 华中科技大学毕业设计（论文）}
+	{\huawenzhongsong 湖北工业大学毕业设计（论文）}
 	{\huawenzhongsong 本科生毕业设计[论文]}
 	{\heiti \@title 院系 专业班级 姓名 学号 指导教师}
 	{\heiti \@school \@classnum \@author \@stunum \@instructor}
